@@ -97,7 +97,7 @@
 							<a href="#hero2" class="header__link">header-link</a>
 						</li>
 						<li class="header__item">
-							<a href="#pluses" class="header__link">header-link</a>
+							<button class="modal-btn" data-path='modal2'>Open Modal</button>
 						</li>
 						<li class="header__item">
 							<a href="#about" class="header__link">header-link</a>
@@ -135,6 +135,7 @@
 				<li>Onordered list item</li>
 				<li>Onordered list item</li>
 			</ol>
+			<button class="modal-btn" data-path='modal1'>Open Modal1</button>
 			<a href="#hero">Link</a>
 			<a href="#hero1">Link</a>
 			<a href="#hero2">Link</a>
@@ -187,6 +188,40 @@
 <section id="hero7" class="hero2" style="height: 400px; background-color: gold;">
 	text
 </section>
+<div class='modal' id='modal1' aria-labelledby="modal-title" aria-describedby='modal-desc' aria-modal='true' role='dialog'>
+	<div class='modal__wrapper'>
+		<div class='modal__content'>
+			<button aria-label='Close Modal' class='modal__close close-modal'>
+				×
+			</button>
+			<h3 class='modal__title' id='modal-title'>
+				Title
+			</h3>
+			<p class='modal__desc' id='modal-desc'>
+			</p>
+			<div class='modal__body content'>
+				Tут тело модалки
+			</div>
+		</div>
+	</div>
+</div>
+<div class='modal' id='modal2' aria-labelledby="modal-title" aria-describedby='modal-desc' aria-modal='true' role='dialog'>
+	<div class='modal__wrapper'>
+		<div class='modal__content'>
+			<button aria-label='Close Modal' class='modal__close close-modal'>
+				×
+			</button>
+			<h3 class='modal__title' id='modal-title'>
+				Это модалка внутри бургер меню
+			</h3>
+			<p class='modal__desc' id='modal-desc'>
+			</p>
+			<div class='modal__body content'>
+				А это тело модалки внутри бургер меню
+			</div>
+		</div>
+	</div>
+</div>
 	</main>
 	<footer class="footer">
 	<div class="footer__container container">

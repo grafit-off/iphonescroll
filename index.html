@@ -103,7 +103,7 @@
 							<a href="#about" class="header__link">header-link</a>
 						</li>
 						<li class="header__item">
-							<a href="#tariffs" class="header__link">header-link</a>
+							<button class="modal-btn" data-path='modal4'>Open Modal</button>
 						</li>
 					</ul>
 				</nav>
@@ -194,7 +194,7 @@
 <div class='modal' id='modal1' aria-labelledby="modal-title" aria-describedby='modal-desc' aria-modal='true' role='dialog'>
 	<div class='modal__wrapper'>
 		<div class='modal__content'>
-			<button aria-label='Close Modal' class='modal__close close-modal'>
+			<button aria-label='Close Modal' class='modal__close close-modal btn-reset'>
 				×
 			</button>
 			<h3 class='modal__title' id='modal-title'>
@@ -213,7 +213,7 @@
 <div class='modal' id='modal3' aria-labelledby="modal-title" aria-describedby='modal-desc' aria-modal='true' role='dialog'>
 	<div class='modal__wrapper'>
 		<div class='modal__content'>
-			<button aria-label='Close Modal' class='modal__close close-modal'>
+			<button aria-label='Close Modal' class='modal__close close-modal btn-reset'>
 				×
 			</button>
 			<h3 class='modal__title' id='modal-title'>
@@ -230,7 +230,7 @@
 <div class='modal' id='modal2' aria-labelledby="modal-title" aria-describedby='modal-desc' aria-modal='true' role='dialog'>
 	<div class='modal__wrapper'>
 		<div class='modal__content'>
-			<button aria-label='Close Modal' class='modal__close close-modal'>
+			<button aria-label='Close Modal' class='modal__close close-modal btn-reset'>
 				×
 			</button>
 			<h3 class='modal__title' id='modal-title'>
@@ -276,6 +276,23 @@
 				<p>
 					Тут жесть, модалка внутри бургера, и кучей текста, а снизу ЕЩЕ модалка...</p>
 				<button class="modal-btn" data-path='modal1'>Open Modal</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class='modal' id='modal4' aria-labelledby="modal-title" aria-describedby='modal-desc' aria-modal='true' role='dialog'>
+	<div class='modal__wrapper'>
+		<div class='modal__content'>
+			<button aria-label='Close Modal' class='modal__close close-modal btn-reset'>
+				×
+			</button>
+			<h3 class='modal__title' id='modal-title'>
+				Title
+			</h3>
+			<p class='modal__desc' id='modal-desc'>
+			</p>
+			<div class='modal__body content'>
+				4modal
 			</div>
 		</div>
 	</div>
